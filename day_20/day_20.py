@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#Day 20 Problem solving, coming from https://www.hackerrank.com/challenges/30-regex-patterns
 
 import math
 import os
