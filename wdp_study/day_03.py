@@ -9,7 +9,9 @@ import sys
 
 # Complete the rotLeft function below.
 def rotLeft(a, d):
-    return a[k%len(a):] + a[:k%len(a)]
+    new_idx = d % len(a)
+    return a[new_idx:] + a[:new_idx]
+
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
