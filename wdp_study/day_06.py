@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# Day 06, coming from https://www.hackerrank.com/challenges/crush/
 
 import math
 import os
