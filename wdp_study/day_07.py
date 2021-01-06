@@ -14,7 +14,8 @@ def makeAnagram(a, b):
         da[e]+= 1
     for e in b:
         da[e]-= 1
-return  sum([abs(e) for e in da.values()])
+    nSum = sum(abs(e) for e in da.values())
+    return nSum
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
