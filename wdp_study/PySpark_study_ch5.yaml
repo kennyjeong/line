@@ -73,7 +73,7 @@ paragraphs:
         typ.StructField(e[0], e[1], False) for e in labels
     ])
 
-    births = spark.read.csv('/user/fp10297/wbp_study/births_train.csv.gz', header=True, schema=schema)
+    births = spark.read.csv('/user/fp10300/wbp_study/births_train.csv.gz', header=True, schema=schema)
 
 
     recode_dictionary = {
