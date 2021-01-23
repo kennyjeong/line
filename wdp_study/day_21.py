@@ -9,7 +9,6 @@ import sys
 
 # Complete the reverseShuffleMerge function below.
 def reverseShuffleMerge(s):
-    def reverseShuffleMerge(s):
     # Total character counts in s
     char_count = Counter(s)
 
