@@ -3,7 +3,8 @@
 
 import os
 import sys
-
+from collections import deque
+sys.setrecursionlimit()
 #
 # Complete the swapNodes function below.
 #
@@ -33,7 +34,7 @@ def inorder(root):
             yield curr.data
             curr = curr.right
 
-def swap_nodes(indexes, queries):
+def swapNodes(indexes, queries):
     root = build_tree(indexes)
     for k in queries:
         h = 1
