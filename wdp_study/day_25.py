@@ -14,7 +14,7 @@ def pairs(k, arr):
     for each in myDict:
         if each + k in myDict:
             count += 1
-    print count
+    return count
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
