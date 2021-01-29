@@ -8,9 +8,9 @@ import sys
 
 # Complete the triplets function below.
 def triplets(a, b, c):
-    a.sort()
-    b.sort()
-    c.sort()
+    a = sorted(set(a))
+    b = sorted(set(b))
+    c = sorted(set(c))
 
     ai = 0
     bi = 0
